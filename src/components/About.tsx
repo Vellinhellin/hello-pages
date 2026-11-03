@@ -3,9 +3,9 @@ export function About() {
     <section className="card">
       <h2>О проекте</h2>
       <p>
-        Этот сайт автоматически деплоится на <strong>GitHub Pages</strong>{' '}
-        при push в <code>main</code>. Сборка, тесты и публикация
-        выполняются в <strong>GitHub Actions</strong>.
+        Этот сайт работает на <strong>React + TypeScript</strong> и собирается
+        через <strong>Vite</strong>! Автоматический деплой настроен через{' '}
+        <strong>GitHub Actions</strong>.
       </p>
     </section>
   )
